@@ -1,8 +1,12 @@
 {
   "dependencies": {
     "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "knex": "^1.0.1",
     "mysql2": "^2.3.3",
-    "nodemon": "^2.0.15"
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
   },
   "name": "first",
   "version": "1.0.0",

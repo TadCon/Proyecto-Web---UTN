@@ -1,0 +1,39 @@
+<div class="container">
+    <h1 class="p-3 text-center">Inscripción</h1>
+    <hr>
+    <div class="row">
+        <form action="" method="post">
+            <div class="mb-2">
+                <input class="form-control" type="text" name="nombre" id="" 
+                placeholder="Nombre" value="{{nombreForm}}">
+            </div>
+            <div class="mb-2">
+                <input class="form-control" type="text" name="apellido" id="" 
+                placeholder="Apellido" value="{{apellidoForm}}">
+            </div>
+            <div class="mb-2">
+                <input class="form-control" type="text" name="email" id="" 
+                placeholder="Email" value="{{emailForm}}">
+            </div>
+            <div class="mb-2">
+                <input class="form-control" type="text" name="localidad" id="" 
+                placeholder="Localidad" value="{{localidadForm}}">
+            </div>
+            <div class="mb-2">
+                <input class="form-control" type="text" name="comentario" id="" 
+                placeholder="Comentario" value="{{comentarioForm}}">
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <input type="submit" value="ENVIAR" class="button btn-danger
+                w-25 p-3 rounded border-0 ">
+            </div>
+        </form>
+        <div class="validacion">
+            <h6>
+                <p class="text-danger">
+                    {{validacion}}
+                </p>
+            </h6>
+        </div>
+    </div>
+</div>
